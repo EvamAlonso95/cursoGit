@@ -32,3 +32,14 @@ PRIMEROS COMANDOS
     git add nombre del archivo -> Envia el archivo al Staying index para empezar a hacer los commits, es como dar de alta en git
     git add . -> añadimos TODOS los archivos del repositorio al staying index
     git commit -m "Agregando index.html" -> Realizamos el cambio, debemos ponerle un nombre descriptivo, ¿por qué has hecho el cambio?
+    git rm --cached index.html -> para sacar el archivo del staying index 
+
+COMMITS
+git log -> trae todos los commits que hemos hecho
+git log --stat -> vemos las estadísticas del commit
+git log --oneline -> historial de cambios, los nombres de los commits
+git log --graph -> muestra una gráfica, útil cuando trabajamos con ramas
+git log --oneline --graph --all -> Ver todo el historial con todos los parámetros vistos anteriormente
+
+git diff -> Vemos las diferencias del archivo con el anterior commit
+git diff numero que obtenemos del historial de cambios nombre el archivo donde queremos ver los cambios -> nos muestra el commit que realizamos
